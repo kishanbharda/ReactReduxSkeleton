@@ -19,12 +19,16 @@ It has almost all of general purpose components like `showError`, `showToast`, `
 **Router**
 ---
 `Router.js` contains router.
+---
 
-All you have to do is, install following dependencies :
+**USES AND INSTALLATION**
+All you have to do is, copy all of file in your project nad install following dependencies :
 
 **Navigation:**
->npm install react-navigation --save
->npm install react-native-gesture-handler react-native-reanimated react-native-screens --save
+>npm install react-navigation --save   
+
+>npm install react-native-gesture-handler react-native-reanimated react-native-screens   --save   
+
 >npm install react-navigation-stack react-navigation-drawer --save
 
 Note: Follow installation guide from ref
@@ -33,20 +37,28 @@ Note: Follow installation guide from ref
 >npm install redux react-redux redux-thunk --save
 
 **Form:** 
->npm install formik --save
->npm install recompose --save
->npm install react-native-formik --save
+>npm install formik --save   
+
+>npm install recompose --save   
+
+>npm install react-native-formik --save  
+
 >npm i react-native-keyboard-aware-scroll-view --save
 
 **Utils:**
->npm install --save @react-native-community/netinfo && cd ios/ && pod install
->npm install @react-native-community/async-storage --save && cd ios/ && pod install
->npm install react-native-vector-icons --save
+>npm install --save @react-native-community/netinfo && cd ios/ && pod install   
+
+>npm install @react-native-community/async-storage --save && cd ios/ && pod install   
+
+>npm install react-native-vector-icons --save   
+
 
 Note: Follow installation guide from ref for { storage, netinfo , icon}
 
->npm install prop-types --save
->npm i react-native-root-toast --save
+>npm install prop-types --save  
+
+>npm i react-native-root-toast --save   
+
 
 **API:**
 >npm install axios --save
