@@ -1,0 +1,91 @@
+This skeleton has following dependencies (or you should use this dependencies): 
+
+1. NetInfo ('@react-native-community/netinfo) :
+- Checking that internet is available or not.
+- Used in acountAction.js any many more before API request is made to make sure that internet is available.
+- INSTALL REF : https://github.com/react-native-community/react-native-netinfo
+
+2. AsyncStorage ('@react-native-community/async-storage') :
+- Package for storing data locally
+- Store user data locally when user logged in to display later when user open app without any api request.
+- INSTALL REF : https://github.com/react-native-community/async-storage
+
+3. axios ('axios') : 
+- For API request 
+- Used in all of actions
+- INSTALL REF : https://www.npmjs.com/package/react-native-axios
+
+4. prop-types ('prop-types') : 
+- INSTALL REF : https://www.npmjs.com/package/prop-types
+
+5. Icon ('react-native-vector-icons/FontAwesome5') : 
+- Icon set
+- INSTALL REF : https://www.npmjs.com/package/react-native-vector-icons
+
+6. KeyboardAwareScrollView ('react-native-keyboard-aware-scroll-view') : 
+- INSTALL REF : https://github.com/APSL/react-native-keyboard-aware-scroll-view
+
+7. Toast ('react-native-root-toast') : 
+- INSTALL REF : https://www.npmjs.com/package/react-native-root-toast
+
+8. recompose : 
+https://www.npmjs.com/package/recompose
+
+9. formik :
+https://jaredpalmer.com/formik/docs/overview
+
+10. react-native-formik
+https://www.npmjs.com/package/react-native-formik
+
+11. react-redux
+
+12. redux
+
+13. redux-thunk
+
+14. yup
+
+15. 
+react-navigation
+react-navigation-stack
+react-navigation-drawer
+
+
+
+// install 
+
+Navigation : 
+------------
+npm install react-navigation --save
+npm install react-native-gesture-handler react-native-reanimated react-native-screens --save
+npm install react-navigation-stack react-navigation-drawer --save
+
+Note: Follow installation guide from ref
+
+Redux : 
+-------
+npm install redux react-redux redux-thunk --save
+
+Form : 
+------
+npm install formik --save
+npm install recompose --save
+npm install react-native-formik --save
+npm i react-native-keyboard-aware-scroll-view --save
+
+Utils: 
+------
+npm install --save @react-native-community/netinfo && cd ios/ && pod install
+npm install @react-native-community/async-storage --save && cd ios/ && pod install
+npm install react-native-vector-icons --save
+
+Note: Follow installation guide from ref for { storage, netinfo , icon}
+
+npm install prop-types --save
+npm i react-native-root-toast --save
+
+API : 
+-----
+npm install axios --save
+
+
