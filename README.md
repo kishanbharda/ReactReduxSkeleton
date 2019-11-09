@@ -19,7 +19,10 @@ It has almost all of general purpose components like `showError`, `showToast`, `
 **Router**
 ---
 `Router.js` contains router.
----
+
+
+<br />
+<br />
 
 **USES AND INSTALLATION**
 All you have to do is, copy all of file in your project nad install following dependencies :
