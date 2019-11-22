@@ -49,6 +49,8 @@ Note: Follow installation guide from ref
 
 >npm i react-native-keyboard-aware-scroll-view --save
 
+>npm install yup --save
+
 **Utils:**
 >npm install --save @react-native-community/netinfo && cd ios/ && pod install   
 
